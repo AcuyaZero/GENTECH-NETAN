@@ -32,6 +32,7 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.txtID = new ReaLTaiizor.Controls.SmallTextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -40,7 +41,6 @@
             this.btnShowPass = new System.Windows.Forms.Button();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.txtID = new ReaLTaiizor.Controls.SmallTextBox();
             this.txtPassword = new ReaLTaiizor.Controls.SmallTextBox();
             this.roundedButton5 = new GENTECH_PROJECTPUPSIS.RoundedButton();
             this.roundedButton1 = new GENTECH_PROJECTPUPSIS.RoundedButton();
@@ -98,6 +98,29 @@
             this.panel3.Padding = new System.Windows.Forms.Padding(0, 15, 0, 0);
             this.panel3.Size = new System.Drawing.Size(321, 523);
             this.panel3.TabIndex = 58;
+            // 
+            // txtID
+            // 
+            this.txtID.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtID.BackColor = System.Drawing.Color.Transparent;
+            this.txtID.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
+            this.txtID.CustomBGColor = System.Drawing.Color.White;
+            this.txtID.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.txtID.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.txtID.Location = new System.Drawing.Point(41, 228);
+            this.txtID.Margin = new System.Windows.Forms.Padding(2);
+            this.txtID.MaxLength = 32767;
+            this.txtID.Multiline = false;
+            this.txtID.Name = "txtID";
+            this.txtID.ReadOnly = false;
+            this.txtID.Size = new System.Drawing.Size(235, 30);
+            this.txtID.SmoothingType = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
+            this.txtID.TabIndex = 44;
+            this.txtID.Text = "ID";
+            this.txtID.TextAlignment = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtID.UseSystemPasswordChar = false;
+            this.txtID.Enter += new System.EventHandler(this.txtID_Enter);
+            this.txtID.Leave += new System.EventHandler(this.txtID_Leave);
             // 
             // label9
             // 
@@ -203,6 +226,7 @@
             this.linkLabel1.TabIndex = 34;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Forgot password?";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // pictureBox3
             // 
@@ -216,29 +240,6 @@
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 31;
             this.pictureBox3.TabStop = false;
-            // 
-            // txtID
-            // 
-            this.txtID.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtID.BackColor = System.Drawing.Color.Transparent;
-            this.txtID.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
-            this.txtID.CustomBGColor = System.Drawing.Color.White;
-            this.txtID.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.txtID.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.txtID.Location = new System.Drawing.Point(41, 228);
-            this.txtID.Margin = new System.Windows.Forms.Padding(2);
-            this.txtID.MaxLength = 32767;
-            this.txtID.Multiline = false;
-            this.txtID.Name = "txtID";
-            this.txtID.ReadOnly = false;
-            this.txtID.Size = new System.Drawing.Size(235, 30);
-            this.txtID.SmoothingType = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
-            this.txtID.TabIndex = 44;
-            this.txtID.Text = "ID";
-            this.txtID.TextAlignment = System.Windows.Forms.HorizontalAlignment.Left;
-            this.txtID.UseSystemPasswordChar = false;
-            this.txtID.Enter += new System.EventHandler(this.txtID_Enter);
-            this.txtID.Leave += new System.EventHandler(this.txtID_Leave);
             // 
             // txtPassword
             // 
@@ -275,6 +276,7 @@
             this.roundedButton5.Size = new System.Drawing.Size(45, 45);
             this.roundedButton5.TabIndex = 42;
             this.roundedButton5.UseVisualStyleBackColor = false;
+            this.roundedButton5.Click += new System.EventHandler(this.roundedButton5_Click);
             // 
             // roundedButton1
             // 
@@ -288,6 +290,7 @@
             this.roundedButton1.Size = new System.Drawing.Size(45, 45);
             this.roundedButton1.TabIndex = 38;
             this.roundedButton1.UseVisualStyleBackColor = false;
+            this.roundedButton1.Click += new System.EventHandler(this.roundedButton1_Click);
             // 
             // roundedButton2
             // 
@@ -301,6 +304,7 @@
             this.roundedButton2.Size = new System.Drawing.Size(45, 45);
             this.roundedButton2.TabIndex = 39;
             this.roundedButton2.UseVisualStyleBackColor = false;
+            this.roundedButton2.Click += new System.EventHandler(this.roundedButton2_Click);
             // 
             // roundedButton3
             // 
@@ -314,6 +318,7 @@
             this.roundedButton3.Size = new System.Drawing.Size(45, 45);
             this.roundedButton3.TabIndex = 40;
             this.roundedButton3.UseVisualStyleBackColor = false;
+            this.roundedButton3.Click += new System.EventHandler(this.roundedButton3_Click);
             // 
             // roundedButton4
             // 
@@ -327,6 +332,7 @@
             this.roundedButton4.Size = new System.Drawing.Size(45, 45);
             this.roundedButton4.TabIndex = 41;
             this.roundedButton4.UseVisualStyleBackColor = false;
+            this.roundedButton4.Click += new System.EventHandler(this.roundedButton4_Click);
             // 
             // LoginSignInPage
             // 

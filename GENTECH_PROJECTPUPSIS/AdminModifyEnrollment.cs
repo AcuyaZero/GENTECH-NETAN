@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using MySql.Data.MySqlClient;
+using MySqlConnector;
 
 namespace GENTECH_PROJECTPUPSIS
 {
@@ -27,6 +27,9 @@ namespace GENTECH_PROJECTPUPSIS
             DummyAdd("PATHFIT 4", "Physical Activity Towards Health and Fitness 4", "2 - BSIT-SM 2-2 - M 02:30PM-05:30PM");
 
         }
+
+        private static string connectionString =
+           "server=127.0.0.1;port=3306;database=gentechdb_admin;uid=root;pwd=1234;";
 
         private void DummyAdd(string code, string description, string schedule)
         {
