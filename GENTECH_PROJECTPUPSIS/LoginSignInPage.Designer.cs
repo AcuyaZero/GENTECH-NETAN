@@ -34,6 +34,7 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.txtID = new ReaLTaiizor.Controls.SmallTextBox();
             this.label9 = new System.Windows.Forms.Label();
+<<<<<<< HEAD
             this.roundedButton5 = new GENTECH_PROJECTPUPSIS.RoundedButton();
             this.label1 = new System.Windows.Forms.Label();
             this.roundedButton1 = new GENTECH_PROJECTPUPSIS.RoundedButton();
@@ -43,10 +44,24 @@
             this.roundedButton3 = new GENTECH_PROJECTPUPSIS.RoundedButton();
             this.hrbSignIn = new ReaLTaiizor.Controls.HopeRoundButton();
             this.roundedButton4 = new GENTECH_PROJECTPUPSIS.RoundedButton();
+=======
+            this.label1 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.hrbSignIn = new ReaLTaiizor.Controls.HopeRoundButton();
+>>>>>>> a83721eeed923229ae7731dc76476239a0cb8541
             this.btnShowPass = new System.Windows.Forms.Button();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.txtPassword = new ReaLTaiizor.Controls.SmallTextBox();
+<<<<<<< HEAD
+=======
+            this.roundedButton5 = new GENTECH_PROJECTPUPSIS.RoundedButton();
+            this.roundedButton1 = new GENTECH_PROJECTPUPSIS.RoundedButton();
+            this.roundedButton2 = new GENTECH_PROJECTPUPSIS.RoundedButton();
+            this.roundedButton3 = new GENTECH_PROJECTPUPSIS.RoundedButton();
+            this.roundedButton4 = new GENTECH_PROJECTPUPSIS.RoundedButton();
+>>>>>>> a83721eeed923229ae7731dc76476239a0cb8541
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel3.SuspendLayout();
@@ -135,6 +150,7 @@
             this.label9.Text = "Socials :";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+<<<<<<< HEAD
             // roundedButton5
             // 
             this.roundedButton5.BackColor = System.Drawing.Color.White;
@@ -148,6 +164,8 @@
             this.roundedButton5.TabIndex = 42;
             this.roundedButton5.UseVisualStyleBackColor = false;
             // 
+=======
+>>>>>>> a83721eeed923229ae7731dc76476239a0cb8541
             // label1
             // 
             this.label1.BackColor = System.Drawing.Color.Transparent;
@@ -162,6 +180,7 @@
             this.label1.Text = "Welcome, PUPIAN!";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+<<<<<<< HEAD
             // roundedButton1
             // 
             this.roundedButton1.BackColor = System.Drawing.Color.White;
@@ -175,6 +194,8 @@
             this.roundedButton1.TabIndex = 38;
             this.roundedButton1.UseVisualStyleBackColor = false;
             // 
+=======
+>>>>>>> a83721eeed923229ae7731dc76476239a0cb8541
             // label3
             // 
             this.label3.BackColor = System.Drawing.Color.Transparent;
@@ -189,6 +210,7 @@
             this.label3.Text = "Sta. Maria, Bulacan Campus";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+<<<<<<< HEAD
             // roundedButton2
             // 
             this.roundedButton2.BackColor = System.Drawing.Color.White;
@@ -202,6 +224,8 @@
             this.roundedButton2.TabIndex = 39;
             this.roundedButton2.UseVisualStyleBackColor = false;
             // 
+=======
+>>>>>>> a83721eeed923229ae7731dc76476239a0cb8541
             // label2
             // 
             this.label2.Dock = System.Windows.Forms.DockStyle.Top;
@@ -215,6 +239,7 @@
             this.label2.Text = "PUPSIS";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+<<<<<<< HEAD
             // roundedButton3
             // 
             this.roundedButton3.BackColor = System.Drawing.Color.White;
@@ -228,6 +253,8 @@
             this.roundedButton3.TabIndex = 40;
             this.roundedButton3.UseVisualStyleBackColor = false;
             // 
+=======
+>>>>>>> a83721eeed923229ae7731dc76476239a0cb8541
             // hrbSignIn
             // 
             this.hrbSignIn.BackColor = System.Drawing.Color.Transparent;
@@ -250,6 +277,7 @@
             this.hrbSignIn.WarningColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(162)))), ((int)(((byte)(60)))));
             this.hrbSignIn.Click += new System.EventHandler(this.hrbSignIn_Click);
             // 
+<<<<<<< HEAD
             // roundedButton4
             // 
             this.roundedButton4.BackColor = System.Drawing.Color.White;
@@ -264,6 +292,8 @@
             this.roundedButton4.UseVisualStyleBackColor = false;
             this.roundedButton4.Click += new System.EventHandler(this.roundedButton4_Click);
             // 
+=======
+>>>>>>> a83721eeed923229ae7731dc76476239a0cb8541
             // btnShowPass
             // 
             this.btnShowPass.BackColor = System.Drawing.Color.White;
@@ -292,6 +322,10 @@
             this.linkLabel1.TabIndex = 34;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Forgot password?";
+<<<<<<< HEAD
+=======
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+>>>>>>> a83721eeed923229ae7731dc76476239a0cb8541
             // 
             // pictureBox3
             // 
@@ -329,6 +363,79 @@
             this.txtPassword.Enter += new System.EventHandler(this.txtPassword_Enter);
             this.txtPassword.Leave += new System.EventHandler(this.txtPassword_Leave);
             // 
+<<<<<<< HEAD
+=======
+            // roundedButton5
+            // 
+            this.roundedButton5.BackColor = System.Drawing.Color.White;
+            this.roundedButton5.FlatAppearance.BorderSize = 0;
+            this.roundedButton5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightGray;
+            this.roundedButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.roundedButton5.Image = ((System.Drawing.Image)(resources.GetObject("roundedButton5.Image")));
+            this.roundedButton5.Location = new System.Drawing.Point(235, 448);
+            this.roundedButton5.Name = "roundedButton5";
+            this.roundedButton5.Size = new System.Drawing.Size(45, 45);
+            this.roundedButton5.TabIndex = 42;
+            this.roundedButton5.UseVisualStyleBackColor = false;
+            this.roundedButton5.Click += new System.EventHandler(this.roundedButton5_Click);
+            // 
+            // roundedButton1
+            // 
+            this.roundedButton1.BackColor = System.Drawing.Color.White;
+            this.roundedButton1.FlatAppearance.BorderSize = 0;
+            this.roundedButton1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightGray;
+            this.roundedButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.roundedButton1.Image = ((System.Drawing.Image)(resources.GetObject("roundedButton1.Image")));
+            this.roundedButton1.Location = new System.Drawing.Point(184, 448);
+            this.roundedButton1.Name = "roundedButton1";
+            this.roundedButton1.Size = new System.Drawing.Size(45, 45);
+            this.roundedButton1.TabIndex = 38;
+            this.roundedButton1.UseVisualStyleBackColor = false;
+            this.roundedButton1.Click += new System.EventHandler(this.roundedButton1_Click);
+            // 
+            // roundedButton2
+            // 
+            this.roundedButton2.BackColor = System.Drawing.Color.White;
+            this.roundedButton2.FlatAppearance.BorderSize = 0;
+            this.roundedButton2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightGray;
+            this.roundedButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.roundedButton2.Image = ((System.Drawing.Image)(resources.GetObject("roundedButton2.Image")));
+            this.roundedButton2.Location = new System.Drawing.Point(133, 448);
+            this.roundedButton2.Name = "roundedButton2";
+            this.roundedButton2.Size = new System.Drawing.Size(45, 45);
+            this.roundedButton2.TabIndex = 39;
+            this.roundedButton2.UseVisualStyleBackColor = false;
+            this.roundedButton2.Click += new System.EventHandler(this.roundedButton2_Click);
+            // 
+            // roundedButton3
+            // 
+            this.roundedButton3.BackColor = System.Drawing.Color.White;
+            this.roundedButton3.FlatAppearance.BorderSize = 0;
+            this.roundedButton3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightGray;
+            this.roundedButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.roundedButton3.Image = ((System.Drawing.Image)(resources.GetObject("roundedButton3.Image")));
+            this.roundedButton3.Location = new System.Drawing.Point(82, 448);
+            this.roundedButton3.Name = "roundedButton3";
+            this.roundedButton3.Size = new System.Drawing.Size(45, 45);
+            this.roundedButton3.TabIndex = 40;
+            this.roundedButton3.UseVisualStyleBackColor = false;
+            this.roundedButton3.Click += new System.EventHandler(this.roundedButton3_Click);
+            // 
+            // roundedButton4
+            // 
+            this.roundedButton4.BackColor = System.Drawing.Color.White;
+            this.roundedButton4.FlatAppearance.BorderSize = 0;
+            this.roundedButton4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightGray;
+            this.roundedButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.roundedButton4.Image = ((System.Drawing.Image)(resources.GetObject("roundedButton4.Image")));
+            this.roundedButton4.Location = new System.Drawing.Point(31, 448);
+            this.roundedButton4.Name = "roundedButton4";
+            this.roundedButton4.Size = new System.Drawing.Size(45, 45);
+            this.roundedButton4.TabIndex = 41;
+            this.roundedButton4.UseVisualStyleBackColor = false;
+            this.roundedButton4.Click += new System.EventHandler(this.roundedButton4_Click);
+            // 
+>>>>>>> a83721eeed923229ae7731dc76476239a0cb8541
             // LoginSignInPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);

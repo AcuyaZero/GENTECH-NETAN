@@ -1248,7 +1248,11 @@
             // 
             this.poisonDateTime2.FontSize = ReaLTaiizor.Extension.Poison.PoisonDateTimeSize.Medium;
             this.poisonDateTime2.Location = new System.Drawing.Point(254, 148);
+<<<<<<< HEAD
             this.poisonDateTime2.MinimumSize = new System.Drawing.Size(0, 29);
+=======
+            this.poisonDateTime2.MinimumSize = new System.Drawing.Size(4, 29);
+>>>>>>> a83721eeed923229ae7731dc76476239a0cb8541
             this.poisonDateTime2.Name = "poisonDateTime2";
             this.poisonDateTime2.Size = new System.Drawing.Size(210, 29);
             this.poisonDateTime2.TabIndex = 90;
