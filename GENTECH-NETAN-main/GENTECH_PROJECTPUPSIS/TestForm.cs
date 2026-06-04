@@ -24,7 +24,7 @@ namespace GENTECH_PROJECTPUPSIS
             {
                 conn.Open();
 
-                string query = "SELECT * FROM users";
+                string query = "SELECT * FROM student";
                 MySqlDataAdapter adapter = new MySqlDataAdapter(query, conn);
 
                 DataTable table = new DataTable();

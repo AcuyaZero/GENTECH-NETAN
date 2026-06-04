@@ -117,28 +117,32 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <metadata name="asd.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Role.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Email.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="btnProceedEnroll.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="button2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
-        cQAAEnEB89x6jgAAAI1JREFUOE/Fk0EKgzAQRd/CE4j0AF0Wj/XPVor0AKVnEBFPIb2EEoibYWrSVPDD
-        rDL/MUnmg5HgJngJGnuWlKAVzIJFMAkutuerBFfBJ5q3CpC8SQSV4GEAocZTIPcjIN4kg6C2/a4i5FkM
-        iYDOAfRJwF9X2DGnH/EIs/d9edu4s8o/5aE8TJtinN+55hXftHQp3m92ogAAAABJRU5ErkJggg==
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAAMpJREFUOE/FkkEKwjAQRYOIlJ6op3Pdk0gRcS3iqssuiofwCCIuhPH/ZBKTGm3r
+        xgcP0pmfoTAxMSLSwat6i/Q12mv8HTRreIGEw+7uGGCv1ngeBBobFSng3h0DjcY+w5DLyhL6s2fWgAX8
+        74AV3Llj4PsABErY26hIC7m2mDMsNZ7CBjwxNQIz6RAUuLIDuxM5wkKv2wEV5KN5DPQM68xWev0FirF8
+        B2QLk94kEOQayfjqcuAiB/B3fx5AOWCjpfngMve+1s8MxjwBA6DnyeVR9vMAAAAASUVORK5CYII=
 </value>
   </data>
-  <metadata name="dgTodaysSchedCourse.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="dgTodaysSchedClass.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Description.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Units.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="dgTodaySched.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
+  <data name="button1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAAM5JREFUOE/FkUEKwjAQRUMpUnqins51TyIi4lrElUsXpYfwCEW6kMQ/kx9IMFrj
+        xgefmUz+/LbUxFhrr9BE3SOFmWig/RXnXA/DDdWhStgsfYB3Pe15YNp6u2vQH9grckfbe6KAOuqV0oDq
+        7wEr9Hv2ymIAPC1MA80XaJI+gPOI0tKeIhcwnNX5AXrSEAzklx3V8QXwnlAarut3d9AMPWJ5uy4kc0i8
+        HdfzYK/2627HURlYrGQbT1r+dTkkgK/7W4DAgA2P5WB5hNY8ZjDmCVr0zzk0IFZRAAAAAElFTkSuQmCC
+</value>
+  </data>
 </root>

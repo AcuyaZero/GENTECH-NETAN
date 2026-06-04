@@ -747,7 +747,7 @@
             this.lblGradeCardWarning.Location = new System.Drawing.Point(24, 296);
             this.lblGradeCardWarning.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblGradeCardWarning.Name = "lblGradeCardWarning";
-            this.lblGradeCardWarning.Size = new System.Drawing.Size(111, 13);
+            this.lblGradeCardWarning.Size = new System.Drawing.Size(112, 13);
             this.lblGradeCardWarning.TabIndex = 157;
             this.lblGradeCardWarning.Text = "This field is required";
             this.lblGradeCardWarning.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -761,7 +761,7 @@
             this.lblNameSchoolWarning.Location = new System.Drawing.Point(24, 81);
             this.lblNameSchoolWarning.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblNameSchoolWarning.Name = "lblNameSchoolWarning";
-            this.lblNameSchoolWarning.Size = new System.Drawing.Size(111, 13);
+            this.lblNameSchoolWarning.Size = new System.Drawing.Size(112, 13);
             this.lblNameSchoolWarning.TabIndex = 156;
             this.lblNameSchoolWarning.Text = "This field is required";
             this.lblNameSchoolWarning.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -775,7 +775,7 @@
             this.lblConfirmWarning.Location = new System.Drawing.Point(429, 318);
             this.lblConfirmWarning.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblConfirmWarning.Name = "lblConfirmWarning";
-            this.lblConfirmWarning.Size = new System.Drawing.Size(111, 13);
+            this.lblConfirmWarning.Size = new System.Drawing.Size(112, 13);
             this.lblConfirmWarning.TabIndex = 155;
             this.lblConfirmWarning.Text = "This field is required";
             this.lblConfirmWarning.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -789,7 +789,7 @@
             this.lblGWA12Warning.Location = new System.Drawing.Point(945, 280);
             this.lblGWA12Warning.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblGWA12Warning.Name = "lblGWA12Warning";
-            this.lblGWA12Warning.Size = new System.Drawing.Size(111, 13);
+            this.lblGWA12Warning.Size = new System.Drawing.Size(112, 13);
             this.lblGWA12Warning.TabIndex = 153;
             this.lblGWA12Warning.Text = "This field is required";
             this.lblGWA12Warning.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -825,7 +825,7 @@
             this.lblGWA11Warning.Location = new System.Drawing.Point(945, 196);
             this.lblGWA11Warning.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblGWA11Warning.Name = "lblGWA11Warning";
-            this.lblGWA11Warning.Size = new System.Drawing.Size(111, 13);
+            this.lblGWA11Warning.Size = new System.Drawing.Size(112, 13);
             this.lblGWA11Warning.TabIndex = 152;
             this.lblGWA11Warning.Text = "This field is required";
             this.lblGWA11Warning.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -839,7 +839,7 @@
             this.lblTypeSchoolWarning.Location = new System.Drawing.Point(945, 113);
             this.lblTypeSchoolWarning.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblTypeSchoolWarning.Name = "lblTypeSchoolWarning";
-            this.lblTypeSchoolWarning.Size = new System.Drawing.Size(111, 13);
+            this.lblTypeSchoolWarning.Size = new System.Drawing.Size(112, 13);
             this.lblTypeSchoolWarning.TabIndex = 151;
             this.lblTypeSchoolWarning.Text = "This field is required";
             this.lblTypeSchoolWarning.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -853,7 +853,7 @@
             this.lblAddressSchoolWarning.Location = new System.Drawing.Point(422, 80);
             this.lblAddressSchoolWarning.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblAddressSchoolWarning.Name = "lblAddressSchoolWarning";
-            this.lblAddressSchoolWarning.Size = new System.Drawing.Size(111, 13);
+            this.lblAddressSchoolWarning.Size = new System.Drawing.Size(112, 13);
             this.lblAddressSchoolWarning.TabIndex = 150;
             this.lblAddressSchoolWarning.Text = "This field is required";
             this.lblAddressSchoolWarning.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1219,7 +1219,7 @@
             this.lblCompanyContactWarning.Location = new System.Drawing.Point(589, 88);
             this.lblCompanyContactWarning.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblCompanyContactWarning.Name = "lblCompanyContactWarning";
-            this.lblCompanyContactWarning.Size = new System.Drawing.Size(111, 13);
+            this.lblCompanyContactWarning.Size = new System.Drawing.Size(112, 13);
             this.lblCompanyContactWarning.TabIndex = 152;
             this.lblCompanyContactWarning.Text = "This field is required";
             this.lblCompanyContactWarning.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1233,7 +1233,7 @@
             this.lblCompanyAddressWarning.Location = new System.Drawing.Point(26, 177);
             this.lblCompanyAddressWarning.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblCompanyAddressWarning.Name = "lblCompanyAddressWarning";
-            this.lblCompanyAddressWarning.Size = new System.Drawing.Size(111, 13);
+            this.lblCompanyAddressWarning.Size = new System.Drawing.Size(112, 13);
             this.lblCompanyAddressWarning.TabIndex = 151;
             this.lblCompanyAddressWarning.Text = "This field is required";
             this.lblCompanyAddressWarning.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1247,7 +1247,7 @@
             this.lblTypeEmploymentWarning.Location = new System.Drawing.Point(21, 89);
             this.lblTypeEmploymentWarning.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblTypeEmploymentWarning.Name = "lblTypeEmploymentWarning";
-            this.lblTypeEmploymentWarning.Size = new System.Drawing.Size(111, 13);
+            this.lblTypeEmploymentWarning.Size = new System.Drawing.Size(112, 13);
             this.lblTypeEmploymentWarning.TabIndex = 150;
             this.lblTypeEmploymentWarning.Text = "This field is required";
             this.lblTypeEmploymentWarning.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1261,7 +1261,7 @@
             this.lblNameCompanyWarning.Location = new System.Drawing.Point(221, 89);
             this.lblNameCompanyWarning.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblNameCompanyWarning.Name = "lblNameCompanyWarning";
-            this.lblNameCompanyWarning.Size = new System.Drawing.Size(111, 13);
+            this.lblNameCompanyWarning.Size = new System.Drawing.Size(112, 13);
             this.lblNameCompanyWarning.TabIndex = 149;
             this.lblNameCompanyWarning.Text = "This field is required";
             this.lblNameCompanyWarning.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1475,7 +1475,7 @@
             this.lblRegion31Warning.Location = new System.Drawing.Point(300, 170);
             this.lblRegion31Warning.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblRegion31Warning.Name = "lblRegion31Warning";
-            this.lblRegion31Warning.Size = new System.Drawing.Size(111, 13);
+            this.lblRegion31Warning.Size = new System.Drawing.Size(112, 13);
             this.lblRegion31Warning.TabIndex = 156;
             this.lblRegion31Warning.Text = "This field is required";
             this.lblRegion31Warning.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1489,7 +1489,7 @@
             this.lblCity31Warning.Location = new System.Drawing.Point(18, 170);
             this.lblCity31Warning.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblCity31Warning.Name = "lblCity31Warning";
-            this.lblCity31Warning.Size = new System.Drawing.Size(111, 13);
+            this.lblCity31Warning.Size = new System.Drawing.Size(112, 13);
             this.lblCity31Warning.TabIndex = 155;
             this.lblCity31Warning.Text = "This field is required";
             this.lblCity31Warning.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1503,7 +1503,7 @@
             this.lblEmailPersonWarning.Location = new System.Drawing.Point(249, 80);
             this.lblEmailPersonWarning.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblEmailPersonWarning.Name = "lblEmailPersonWarning";
-            this.lblEmailPersonWarning.Size = new System.Drawing.Size(111, 13);
+            this.lblEmailPersonWarning.Size = new System.Drawing.Size(112, 13);
             this.lblEmailPersonWarning.TabIndex = 154;
             this.lblEmailPersonWarning.Text = "This field is required";
             this.lblEmailPersonWarning.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1517,7 +1517,7 @@
             this.lblStreetPersonWarning.Location = new System.Drawing.Point(752, 80);
             this.lblStreetPersonWarning.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblStreetPersonWarning.Name = "lblStreetPersonWarning";
-            this.lblStreetPersonWarning.Size = new System.Drawing.Size(111, 13);
+            this.lblStreetPersonWarning.Size = new System.Drawing.Size(112, 13);
             this.lblStreetPersonWarning.TabIndex = 153;
             this.lblStreetPersonWarning.Text = "This field is required";
             this.lblStreetPersonWarning.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1531,7 +1531,7 @@
             this.lblContactWarning2.Location = new System.Drawing.Point(501, 80);
             this.lblContactWarning2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblContactWarning2.Name = "lblContactWarning2";
-            this.lblContactWarning2.Size = new System.Drawing.Size(111, 13);
+            this.lblContactWarning2.Size = new System.Drawing.Size(112, 13);
             this.lblContactWarning2.TabIndex = 152;
             this.lblContactWarning2.Text = "This field is required";
             this.lblContactWarning2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1545,7 +1545,7 @@
             this.lblContactPersonWarning.Location = new System.Drawing.Point(18, 80);
             this.lblContactPersonWarning.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblContactPersonWarning.Name = "lblContactPersonWarning";
-            this.lblContactPersonWarning.Size = new System.Drawing.Size(111, 13);
+            this.lblContactPersonWarning.Size = new System.Drawing.Size(112, 13);
             this.lblContactPersonWarning.TabIndex = 151;
             this.lblContactPersonWarning.Text = "This field is required";
             this.lblContactPersonWarning.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1863,7 +1863,7 @@
             this.lblBarangayWarning.Location = new System.Drawing.Point(485, 75);
             this.lblBarangayWarning.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblBarangayWarning.Name = "lblBarangayWarning";
-            this.lblBarangayWarning.Size = new System.Drawing.Size(111, 13);
+            this.lblBarangayWarning.Size = new System.Drawing.Size(112, 13);
             this.lblBarangayWarning.TabIndex = 152;
             this.lblBarangayWarning.Text = "This field is required";
             this.lblBarangayWarning.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1877,7 +1877,7 @@
             this.lblStreetWarning.Location = new System.Drawing.Point(259, 73);
             this.lblStreetWarning.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblStreetWarning.Name = "lblStreetWarning";
-            this.lblStreetWarning.Size = new System.Drawing.Size(111, 13);
+            this.lblStreetWarning.Size = new System.Drawing.Size(112, 13);
             this.lblStreetWarning.TabIndex = 150;
             this.lblStreetWarning.Text = "This field is required";
             this.lblStreetWarning.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1891,7 +1891,7 @@
             this.lblCity3Warning.Location = new System.Drawing.Point(722, 73);
             this.lblCity3Warning.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblCity3Warning.Name = "lblCity3Warning";
-            this.lblCity3Warning.Size = new System.Drawing.Size(111, 13);
+            this.lblCity3Warning.Size = new System.Drawing.Size(112, 13);
             this.lblCity3Warning.TabIndex = 149;
             this.lblCity3Warning.Text = "This field is required";
             this.lblCity3Warning.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1905,7 +1905,7 @@
             this.lblRegion3Warning.Location = new System.Drawing.Point(928, 75);
             this.lblRegion3Warning.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblRegion3Warning.Name = "lblRegion3Warning";
-            this.lblRegion3Warning.Size = new System.Drawing.Size(111, 13);
+            this.lblRegion3Warning.Size = new System.Drawing.Size(112, 13);
             this.lblRegion3Warning.TabIndex = 148;
             this.lblRegion3Warning.Text = "This field is required";
             this.lblRegion3Warning.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1919,7 +1919,7 @@
             this.lblContactNumberWarning.Location = new System.Drawing.Point(31, 73);
             this.lblContactNumberWarning.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblContactNumberWarning.Name = "lblContactNumberWarning";
-            this.lblContactNumberWarning.Size = new System.Drawing.Size(111, 13);
+            this.lblContactNumberWarning.Size = new System.Drawing.Size(112, 13);
             this.lblContactNumberWarning.TabIndex = 147;
             this.lblContactNumberWarning.Text = "This field is required";
             this.lblContactNumberWarning.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2380,7 +2380,7 @@
             this.lblEmailWarning.Location = new System.Drawing.Point(21, 81);
             this.lblEmailWarning.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblEmailWarning.Name = "lblEmailWarning";
-            this.lblEmailWarning.Size = new System.Drawing.Size(111, 13);
+            this.lblEmailWarning.Size = new System.Drawing.Size(112, 13);
             this.lblEmailWarning.TabIndex = 126;
             this.lblEmailWarning.Text = "This field is required";
             this.lblEmailWarning.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2407,7 +2407,7 @@
             this.lblRegionWarning.Location = new System.Drawing.Point(275, 203);
             this.lblRegionWarning.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblRegionWarning.Name = "lblRegionWarning";
-            this.lblRegionWarning.Size = new System.Drawing.Size(111, 13);
+            this.lblRegionWarning.Size = new System.Drawing.Size(112, 13);
             this.lblRegionWarning.TabIndex = 126;
             this.lblRegionWarning.Text = "This field is required";
             this.lblRegionWarning.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2434,7 +2434,7 @@
             this.lblCountryWarning.Location = new System.Drawing.Point(32, 203);
             this.lblCountryWarning.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblCountryWarning.Name = "lblCountryWarning";
-            this.lblCountryWarning.Size = new System.Drawing.Size(111, 13);
+            this.lblCountryWarning.Size = new System.Drawing.Size(112, 13);
             this.lblCountryWarning.TabIndex = 125;
             this.lblCountryWarning.Text = "This field is required";
             this.lblCountryWarning.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2448,7 +2448,7 @@
             this.lblBirthWarning.Location = new System.Drawing.Point(250, 81);
             this.lblBirthWarning.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblBirthWarning.Name = "lblBirthWarning";
-            this.lblBirthWarning.Size = new System.Drawing.Size(111, 13);
+            this.lblBirthWarning.Size = new System.Drawing.Size(112, 13);
             this.lblBirthWarning.TabIndex = 125;
             this.lblBirthWarning.Text = "This field is required";
             this.lblBirthWarning.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2515,7 +2515,7 @@
             this.lblSexWarning.Location = new System.Drawing.Point(746, 78);
             this.lblSexWarning.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblSexWarning.Name = "lblSexWarning";
-            this.lblSexWarning.Size = new System.Drawing.Size(111, 13);
+            this.lblSexWarning.Size = new System.Drawing.Size(112, 13);
             this.lblSexWarning.TabIndex = 110;
             this.lblSexWarning.Text = "This field is required";
             this.lblSexWarning.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2529,7 +2529,7 @@
             this.lblCivilWarning.Location = new System.Drawing.Point(914, 78);
             this.lblCivilWarning.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblCivilWarning.Name = "lblCivilWarning";
-            this.lblCivilWarning.Size = new System.Drawing.Size(111, 13);
+            this.lblCivilWarning.Size = new System.Drawing.Size(112, 13);
             this.lblCivilWarning.TabIndex = 127;
             this.lblCivilWarning.Text = "This field is required";
             this.lblCivilWarning.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3100,7 +3100,7 @@
             this.lblLastWarning.Location = new System.Drawing.Point(829, 76);
             this.lblLastWarning.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblLastWarning.Name = "lblLastWarning";
-            this.lblLastWarning.Size = new System.Drawing.Size(111, 13);
+            this.lblLastWarning.Size = new System.Drawing.Size(112, 13);
             this.lblLastWarning.TabIndex = 111;
             this.lblLastWarning.Text = "This field is required";
             this.lblLastWarning.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3114,7 +3114,7 @@
             this.lblFirstWarning.Location = new System.Drawing.Point(253, 76);
             this.lblFirstWarning.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblFirstWarning.Name = "lblFirstWarning";
-            this.lblFirstWarning.Size = new System.Drawing.Size(111, 13);
+            this.lblFirstWarning.Size = new System.Drawing.Size(112, 13);
             this.lblFirstWarning.TabIndex = 108;
             this.lblFirstWarning.Text = "This field is required";
             this.lblFirstWarning.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3128,7 +3128,7 @@
             this.lblMiddleWarning.Location = new System.Drawing.Point(536, 76);
             this.lblMiddleWarning.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblMiddleWarning.Name = "lblMiddleWarning";
-            this.lblMiddleWarning.Size = new System.Drawing.Size(111, 13);
+            this.lblMiddleWarning.Size = new System.Drawing.Size(112, 13);
             this.lblMiddleWarning.TabIndex = 109;
             this.lblMiddleWarning.Text = "This field is required";
             this.lblMiddleWarning.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;

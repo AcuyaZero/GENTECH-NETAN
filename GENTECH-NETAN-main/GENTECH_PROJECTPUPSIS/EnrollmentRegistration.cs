@@ -1,5 +1,6 @@
 ﻿using ComponentFactory.Krypton.Toolkit;
 using GENTECH_PROJECTPUPSIS;
+using MySqlConnector;
 using ReaLTaiizor.Controls;
 using System;
 using System.Collections.Generic;
@@ -12,18 +13,49 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using MySql.Data.MySqlClient;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace WindowsFormsApp1
 {
     public partial class EnrollmentRegistration : Form
     {
+        private string connString = "server=127.0.0.1;uid=root;pwd=;database=wawa;";
         public EnrollmentRegistration()
         {
             InitializeComponent();
             SetupBirthdatePicker(poisonDateTime1);
             SetupBirthdatePicker(poisonDateTime2);
         }
+        public long GenerateNextStudentID(string connectionString)
+        {
+            long defaultStartingID = 2024000010;
+
+            string query = "SELECT MAX(Student_ID) FROM student WHERE Student_ID >= 2024000000 AND Student_ID <= 2024999999;";
+
+            using (MySqlConnection conn = new MySqlConnection(connectionString))
+            {
+                conn.Open();
+                using (MySqlCommand cmd = new MySqlCommand(query, conn))
+                {
+                    object result = cmd.ExecuteScalar();
+
+                    if (result != null && result != DBNull.Value)
+                    {
+                        long currentMaxID = Convert.ToInt64(result);
+
+                        long sequence = currentMaxID / 10; 
+                        sequence++;                        
+                        long nextID = sequence * 10;       
+
+                        return nextID;
+                    }
+                }
+            }
+
+            return defaultStartingID;
+        }
+
+
         private void SetupBirthdatePicker(DateTimePicker dtp)
         {
             // Set date range
@@ -71,6 +103,53 @@ namespace WindowsFormsApp1
 
         private void txtConfirm_Click(object sender, EventArgs e)
         {
+            if (!cbxConfirm.Checked) 
+            {
+                MessageBox.Show("You must read and agree to the Terms and Conditions before submitting your application.",
+                                "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            try
+            {
+                long newStudentID = GenerateNextStudentID(connString);
+
+                using (MySqlConnection conn = new MySqlConnection(connString))
+                {
+                    conn.Open();
+
+                    string studentQuery = @"INSERT INTO student
+                    (Student_ID, First_Name, Last_Name, Email, Birth_Date)
+                                     VALUES
+                    (@StudentID, @FirstName, @LastName, @Email, @BirthDate);";
+
+                    using (MySqlCommand cmdStudent = new MySqlCommand(studentQuery, conn))
+                    {
+                        cmdStudent.Parameters.AddWithValue("@StudentID", newStudentID);
+                        cmdStudent.Parameters.AddWithValue("@FirstName", txtFirstName.Text);
+                        cmdStudent.Parameters.AddWithValue("@LastName", txtLastName.Text);
+                        cmdStudent.Parameters.AddWithValue("@Email", txtEmail.Text);
+                        cmdStudent.Parameters.AddWithValue("@BirthDate", poisonDateTime1.Value);
+
+                        cmdStudent.ExecuteNonQuery();
+                    }
+
+                  
+
+                }
+
+                MessageBox.Show($"Application Submitted Successfully!\n\n" +
+                                $"Your assigned Student ID is: {newStudentID}\n" +
+                                $"Status: Pending Verification",
+                                "Submission Complete", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                this.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Failed to submit student application: {ex.Message}", "Database Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
             if (!cbxConfirm.Checked || txtNameSchool.ForeColor == Color.DarkGray || txtAddressSchool.ForeColor == Color.DarkGray ||
                 numGWA12.Value == 0 || numGWA11.Value == 0 || cmbTypeSchool.ForeColor == Color.DarkGray || pictureBox1.Image == null ||
                 txtNameSchool.Text == "" || txtAddressSchool.Text == ""
@@ -92,25 +171,9 @@ namespace WindowsFormsApp1
                 if (pictureBox1.Image == null)
                     lblGradeCardWarning.Visible = true;
 
-
-
-
-
-                MessageBox.Show(
-                                "Your application cannot proceed because some required information is missing.\n\nPlease complete all fields and review your details before continuing.",
-                                "Application Incomplete",
-                                MessageBoxButtons.OK,
-                                MessageBoxIcon.Warning
-                            );
             }
             else
             {
-                MessageBox.Show(
-                     "Your registration is being processed.\nPlease check your email for login credentials shortly.",
-                     "Registration in Progress",
-                     MessageBoxButtons.OK,
-                     MessageBoxIcon.Information
-                 );
                 LoginFormPUPSIS loginForm = new LoginFormPUPSIS();
                 loginForm.Show();
                 this.Close();
@@ -126,9 +189,10 @@ namespace WindowsFormsApp1
             }
         }
 
+        
         private void btmNext2_Click(object sender, EventArgs e)
         {
-
+          
             // 1. Hide all warnings first to "reset" the view
             lblFirstWarning.Visible = false;
             lblMiddleWarning.Visible = false;
